@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    padding: 56px 24px;
+}
+
+.purple{
+    color: blueviolet;
+}
+
+/* NAV */
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0px;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-right: 16px;
+}
+
+h1{
+    font-size: 48px;
+    color: #242424;
+}
+
+.nav__link{
+    text-decoration: none;
+    padding-right: 16px;
+    font-size: 20px;
+    color: #242424;
+    font-weight: bold;
+}
+
+.button{
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    padding: 12px;
+    font-weight: 500;
+}
+
+/* HEADER */
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title,
+.subtitle{
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.subtitle{
+    color: #242424;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+input{
+    font-size: 32px;
+    border-radius: 16px;
+    padding: 12px;
+    border-color: lightgray;
+}
+
+input::placeholder{
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.header__button{
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+}
+
+.customers{
+    padding: 24px;
+}
+
+.customers__des{
+    padding: 32px 0px 0px 0px;
+    color: rgb(94, 118, 126);
+}
+
+.customer__img{
+    opacity: 0.5;
+}
+
+.header__pic--wrapper{
+    padding-top: 48px;
+    width: 80%;
+}
+
+.header__pic{
+    width: 100%;
+}
+
+/* FEATURES */
+
+.feature__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__title{
+    padding: 32px 0px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.feature__container-box--wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 64px 0px;
+}
+
+.feature__container--box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+    width: calc(100%/3);
+}
+
+.feature__img--box{
+    padding: 8px;
+    margin-right: 16px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid lightgray;
+    border-radius: 50px;
+}
+
+.feature__box--title{
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+.feature__box--subtitle{
+    font-size: 20px;
+    opacity: 80%;
+}
+
+.feature__img--wrapper{
+    padding: 56px 0px 24px 0px;
+}
+
+.feature__img{
+    border: 2px solid lightgray;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* QUALITY */
+
+.quality__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality__button--wrapper{
+    padding: 32px;
+}
+
+.quality__button{
+    font-size: 32px;
+    border-radius: 40px;
+    padding: 20px 24px;
+    border: none;
+}
+
+/* PRICING */
+
+.pricing__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__containers{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 24px;
+}
+
+.pricing__container-box--wrapper{
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 24px;
+    padding: 24px;
+    width: calc(100%/4);
+    justify-content: space-between;
+}
+
+.pricing__container--box1,
+.pricing__container--box2{
+    padding-bottom:32px;
+}
+
+.pricing__container--box2{
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding: 24px;
+}
+
+.pricing__container--box3{
+    padding-top: 32px;
+}
+
+.pricing__box--title{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.pricing__box--price{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.pricing__box--length{
+    opacity: 80%;
+    font-weight: 500;
+}
+
+.pricing__list-items{
+    font-size: 20px;
+    padding-bottom: 16px;
+    opacity: 80%;
+    font-weight: 500;
+}
+
+.pricing__button1,
+.pricing__button2,
+.pricing__button3{
+    font-size: 20px;
+    padding: 16px 24px;
+}
